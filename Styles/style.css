@@ -1,3 +1,12 @@
-p{
-    color: tomato;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: rgb(75, 75, 75);
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    padding: 2em;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
 }

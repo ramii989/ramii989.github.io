@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Excercise Two</title>
+    <meta name="description" content="A full page menu with a scroll loop animation.">
+    <meta name="keywords" content="scroll, loop, menu, website, javascript, web design">
+    <meta name="author" content="Codrops">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>document.documentElement.className = "js";
+
+        var supportsCssVars = function supportsCssVars() {
+            var e,
+                t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+        };
+
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+
+<body>
+    <div class="frame">
+        <h1 class="frame__title">Index Excercise</h1>
+        <div class="frame__links">
+
+        </div>
+        <span class="frame__button" aria-hidden="true">Random</span>
+    </div>
+    <nav class="menu">
+        <div class="menu__item"><a class="menu__item-inner" href="page-1.html">Page One</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-2.html">Page Two</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-3.html">Page Three</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-4.html">Page Four</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-5.html">Page Five</a></div>
+        <div class="menu__item"><a class="menu__item-inner " href="page-6.html">Page Six</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-1.html">Page One</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-2.html">Page Two</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-3.html">Page Three</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-4.html">Page Four</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-5.html">Page Five</a></div>
+        <div class="menu__item"><a class="menu__item-inner" href="page-6.html">Page Six</a></div>
+
+
+    </nav>
+    <script src="js.00a46daa.js"></script>
+</body>
+
+</html>
