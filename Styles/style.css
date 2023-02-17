@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
 body{
     background-color: rgb(75, 75, 75);
-    font-family: monospace;
+    font-family: 'Averia Serif Libre', cursive;
     color: rgb(255, 255, 255);
     padding: 2em;
+    font-size: 30px;
 }
 
 h1{
     font-family: 'Bebas Neue', cursive;
+    font-size: 300px;
+   }
+
+
+.decade{
+    color: lightpink;
 }
+
+#title{
+    color: lightpink;
+}
+
+body:hover{
+    background-color: darkred;
+}
+
+p:first-line { 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+ }
