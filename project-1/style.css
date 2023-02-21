@@ -1,11 +1,42 @@
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  font-family: monospace;
+.title{
+    font-size: 900px;
+    padding-top: 100px;
+    color: white;
+    
+
+}
+.title p{
+    font-family: serif;
+}
+.title:hover {
+  transform: rotate(90deg);
+}
+
+section{
+    height: 100vh;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+.list{
+
+  font-family: 'Codystar', cursive;
   font-size: 1.25rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -15,7 +46,76 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+
 }
+.list h1{
+    font-family: 'Codystar', cursive;
+    font-size: 200px;
+}
+.front{
+     background-color: white;
+    
+
+      
+}
+.one-cover{
+    background-color: rgb(136, 25, 25);
+}
+.two-cover{
+    background-color: rgb(136, 25, 25);
+}
+.three-cover{
+    background-color: rgb(136, 25, 25);
+}
+.four-cover{
+    background-color: rgb(136, 25, 25);
+}
+.one{
+    background-color: rgb(255, 255, 255);
+}
+.two{
+    background-color: white;
+}
+.three{
+    background-color: rgb(255, 255, 255);
+}
+.four{
+    background-color: white;
+    height: 130vh;
+
+}
+.special{
+     font-family: 'Codystar', cursive;
+    font-size: 200px;
+}
+    
+.five{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    margin: 50px;
+    font-size: 2em;
+  
+  
+}
+h2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.inner{
+    margin-top: 2px;
+    
+    width: 700px;
+    height: 700px;
+}
+#loremtext{
+    width: 900px;
+    height: 250px;
+    padding: 50px;
+}
+
 
 ul {
   list-style: none;
@@ -41,8 +141,8 @@ a.underline-hover-effect {
   left: 0;
   bottom: 0;
   width: 0;
-  height: 20px;
-  background-color: rgba(255, 255, 0, 0.349);
+  height: 2px;
+  background-color: rgba(255, 255, 0, 0.952);
   transition: width 0.25s ease-out;
 }
 .underline-hover-effect:hover::before {
