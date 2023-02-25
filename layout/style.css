@@ -1,3 +1,14 @@
 body{
-    background-color: rgb(127, 146, 255);
+    background-color: rgb(191, 200, 253);
+    padding: 100px 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+figcaption{
+    margin-top: 30px;
+    color: white;
+
+}
+header h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
 }
