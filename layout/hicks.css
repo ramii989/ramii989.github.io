@@ -1,0 +1,23 @@
+/*#hicks section{
+    background-color: rgb(168, 166, 164);
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 20% 20% 0% 0%;
+    overflow: hidden;
+
+}
+#hicks div{
+    background-color: rgb(237, 98, 58);
+    float: left;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    /* transform: skew(.312rad); giving life to the infinite demon pillows*/ 
+    
+}
+
+#hicks div:nth-child(1),
+#hicks div:nth-child(10){
+    background-color: red;
+}
