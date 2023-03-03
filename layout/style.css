@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(191, 200, 253);
+    background-color: rgb(1, 1, 2);
     padding: 100px 24px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -8,6 +8,7 @@ figcaption{
     color: white;
 
 }
+
 header h1{
     font-size: 60px;
     color: rgb(255, 255, 255);
