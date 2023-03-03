@@ -1,3 +1,5 @@
+/* inspired by little boxes*/
+
 #turrell section{
     background-color: rgb(191, 111, 55);
     height: 400px;
@@ -7,9 +9,9 @@
 }
 
 #turrell div {
-	height: 100%; /* Fill the parent. This works since we have a declared height ancestor. */
-	padding-bottom: 5%; /* Different inset on each side for the distinct downward look. */
-	padding-left: 5%; /* And using a relative unit means I can share this for all the `div` levels. */
+	height: 100%; 
+	padding-bottom: 5%; 
+	padding-left: 5%; 
 	padding-right: 5%;
 	padding-top: 5%;
 	width: 100%;
