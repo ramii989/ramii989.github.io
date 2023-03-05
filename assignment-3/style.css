@@ -7,27 +7,27 @@ body{
     background: linear-gradient(
         to top,
        rgb(0, 4, 226) 0%,
-        rgb(226, 0, 0)  50%,
-        rgb(226, 0, 0)50%,
-        rgb(0, 4, 226) 100%
+        rgb(255, 255, 255)  50%,
+        rgb(255, 255, 255)50%,
+        rgb(255, 255, 255) 100%
     );
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .square-1{
-    height: 50vh;
-    width: 50vh;
+    height: 25vh;
+    width: 25vh;
     border-radius: 50%;
     filter: blur(0px);
     display: block;
     text-decoration: none;
     background: linear-gradient(
         to bottom,
-       rgb(104, 28, 124) 0%,
-        rgb(226, 0, 0)  50%,
-        rgb(226, 0, 0)50%,
-        rgb(103, 28, 124) 100%
+       rgb(255, 255, 255) 0%,
+        rgb(255, 255, 255)  50%,
+        rgb(255, 255, 255)50%,
+        rgb(192, 194, 244) 100%
     );
 }
 
@@ -49,6 +49,6 @@ body{
         transform:rotate(0deg);
     }
     to {
-        transform:rotate(360deg);
+        transform:rotate(720deg);
     }
 }
