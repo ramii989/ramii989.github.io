@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        black 50%,
+        black 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square-1{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 50%,
+        white 50%,
+        white 100%
+    );
+}
+
+.square-1 {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(720deg);
+    }
+}
