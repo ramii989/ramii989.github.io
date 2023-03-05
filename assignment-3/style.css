@@ -19,6 +19,8 @@ body{
     height: 25vh;
     width: 25vh;
     border-radius: 50%;
+    display: block;
+    text-decoration: none;
     background: linear-gradient(
         to right,
         black 0%,
@@ -27,6 +29,8 @@ body{
         white 100%
     );
 }
+
+
 
 .square-1 {
   animation-name: spin;
