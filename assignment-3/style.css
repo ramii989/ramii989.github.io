@@ -16,8 +16,8 @@ body{
     align-items: center;
 }
 .square-1{
-    height: 20vh;
-    width: 20vh;
+    height: 50vh;
+    width: 50vh;
     border-radius: 50%;
     filter: blur(0px);
     display: block;
