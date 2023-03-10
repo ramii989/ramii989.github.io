@@ -1,10 +1,17 @@
 /* inspired by little boxes*/
-
+:root{
+    --orange-height: 67vh;
+    --orange-width:  48vh;
+    --orange-padding: 5.5vh;
+    --first-blur: 3.6vh;
+    --second-blur: 4.5vh;
+    --original-color: rgb(191, 111, 55);
+}
 #turrell section{
-    background-color: rgb(191, 111, 55);
-    height: 400px;
-    width: 300px;
-    padding: 36px;
+    background-color:var(--original-color);
+    height: var(--orange-height);
+    width: var(--orange-width);
+    padding: var(--orange-padding);
 
 }
 
@@ -27,11 +34,11 @@
     width: 100%;
     padding-left: 60%;
     padding-right: 20%;
-    filter: blur(22px);
+    filter: blur(var(--first-blur));
     }
 #turrell .cloud-1{
     background-color: rgb(255, 255, 255);
     width: 100%;
     border-radius: 10%;
-    filter: blur(30px);
+    filter: blur(var(--second-blur));
 }
