@@ -1,20 +1,29 @@
+:root{
+    --font-size: 5.5vh;
+    --gallery-size: 47vh;
+    --gap-tombstone: 8vh;
+    --center-content: 10vh 2vh;
+}
+
+
+
 body{
     background-color: rgb(1, 1, 2);
-    padding: 100px 24px;
+    padding: var(--center-content);
     font-family: 'Courier New', Courier, monospace;
 }
 figcaption{
-    margin-top: 30px;
+    margin-top: var(--gap-tombstone);
     color: white;
     padding-bottom: 2vh;
 
 }
 
 header h1{
-    font-size: 60px;
+    font-size: var(--font-size);
     color: rgb(255, 255, 255);
 }
 figure{
     margin: 0 auto;
-    width: 300px;
+    width: var(--gallery-size);
 }
