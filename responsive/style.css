@@ -1,9 +1,11 @@
+/* non consolidated variables :( */
+/* consolidated one variable!:) */
 :root{
     --font-size: 5.5vh;
-    --gallery-size: 47vh;
-    --gap-tombstone: 8vh;
+    --spacing-unit: 8vh;
     --center-content: 10vh 2vh;
 }
+
 
 
 
@@ -13,7 +15,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 figcaption{
-    margin-top: var(--gap-tombstone);
+    margin-top: var(--spacing-unit);
     color: white;
     padding-bottom: 2vh;
 
@@ -25,5 +27,5 @@ header h1{
 }
 figure{
     margin: 0 auto;
-    width: var(--gallery-size);
+    width: calc(5.9 * var(--spacing-unit));
 }

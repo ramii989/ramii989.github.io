@@ -1,5 +1,7 @@
 /* inspired by little boxes*/
+/* consolidated orange height and width variable into one variable that can be multiplied*/
 :root{
+    --spacing:22.3vh;
     --orange-height: 67vh;
     --orange-width:  48vh;
     --orange-padding: 5.5vh;
@@ -7,10 +9,12 @@
     --second-blur: 4.5vh;
     --original-color: rgb(191, 111, 55);
 }
+
+
 #turrell section{
     background-color:var(--original-color);
-    height: var(--orange-height);
-    width: var(--orange-width);
+    height: calc(3 * var(--spacing));
+    width: calc(2.15 * var(--spacing));
     padding: var(--orange-padding);
 
 }
