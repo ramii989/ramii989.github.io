@@ -9,7 +9,16 @@
     --second-blur: 4.5vh;
     --original-color: rgb(191, 111, 55);
 }
-
+@media (min-width: 600px) {
+	:root {
+		--original-color: rgb(255, 80, 147);
+	}
+}
+@media (min-width: 1200px) {
+	:root {
+		--original-color: rgb(80, 255, 80);
+	}
+}
 
 #turrell section{
     background-color:var(--original-color);
