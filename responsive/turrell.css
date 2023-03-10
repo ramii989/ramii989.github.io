@@ -1,0 +1,37 @@
+/* inspired by little boxes*/
+
+#turrell section{
+    background-color: rgb(191, 111, 55);
+    height: 400px;
+    width: 300px;
+    padding: 36px;
+
+}
+
+#turrell div {
+	height: 100%; 
+	padding-bottom: 5%; 
+	padding-left: 5%; 
+	padding-right: 5%;
+	padding-top: 5%;
+	width: 100%;
+}
+
+#turrell .sky{
+    background-color: rgb(78, 135, 181);
+    padding-left: 12%;
+    overflow: hidden;
+}
+#turrell .cloud{
+    background-color: rgb(3, 68, 129);
+    width: 100%;
+    padding-left: 60%;
+    padding-right: 20%;
+    filter: blur(22px);
+    }
+#turrell .cloud-1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10%;
+    filter: blur(30px);
+}
