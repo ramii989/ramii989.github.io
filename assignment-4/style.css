@@ -1,0 +1,22 @@
+/*
+
+You'll be positioning elements relative to a fluid container. This
+  means you might want to use percentages when positioning and sizing elements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
