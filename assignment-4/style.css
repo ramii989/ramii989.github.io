@@ -10,7 +10,7 @@ body {
   background-color: black;
 }
 
-.frame {
+frame {
   width: 95vw;
   height: 57vw;
   background: white;
@@ -20,3 +20,49 @@ body {
 
 /* Your CSS goes here */
 
+.rug
+{
+    width: 60vw;
+    height: 40vw;
+    background: repeating-linear-gradient(
+  45deg,
+  #b82727,
+  #b82727 1vw,
+  #ffffff 1vw,
+  #ffffff 2vw
+);
+    transform: perspective(60px)  rotate3d(1,0,0,60deg);
+  
+
+}
+
+.peach
+{
+    width: 30vw;
+    height: 30vw;
+    
+   background: radial-gradient(rgb(233, 129, 81), rgb(143, 89, 91));
+    border-radius: 50%;
+    position: fixed;
+    left: 40vw;
+    top: 18vw;
+}
+.orange
+{   overflow-x: hidden;
+    width: 30vw;
+    height: 30vw;
+     background: radial-gradient(rgb(231, 185, 116), rgb(212, 114, 21));
+    border-radius: 50%;
+    position: fixed;
+    left: 65vw;
+    top: 10vw;
+    
+}
+figure{
+    margin: 0 auto;
+    width: 80vw;
+    height: 50vw;
+    background-color: rgb(208, 234, 245);
+    overflow: hidden;
+
+}
