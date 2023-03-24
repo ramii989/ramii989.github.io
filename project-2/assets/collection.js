@@ -23,7 +23,7 @@ const renderItems = (collection) => {
         const itemDetails =
             `  <h2>${item.area}</h2>
 				<p>Infiltration of ${item.infiltration}</p>
-				<p>Occupation <em>${item.job}</em></p>
+				<p>Occupations are <em>${item.job}</em></p>
 				<p>Availability of mortgage funds are ${item.funds}</p>
 					<p>${item.description}</p>
 				
