@@ -4,12 +4,13 @@
 	--spacing: 1em;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
 
 body {
-	font-family: sans-serif;
+	font-family: 'Playfair Display', serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
+
 }
 
 aside {
