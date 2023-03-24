@@ -12,15 +12,25 @@ body {
 	padding-bottom: 33vh;
 }
 
-aside { margin-bottom: calc(4 * var(--spacing)); }
+aside {
+	margin-bottom: calc(4 * var(--spacing));
+}
 
-h1 { font-size: 200%; }
+h1 {
+	font-size: 200%;
+}
 
-h2 { font-weight: bold; }
+h2 {
+	font-weight: bold;
+}
 
-a { color: blue; }
+a {
+	color: blue;
+}
 
-em { font-style: italic }
+em {
+	font-style: italic
+}
 
 ul {
 	display: grid;
@@ -33,4 +43,6 @@ li {
 	gap: var(--spacing);
 }
 
-.faded { opacity: 0.333 }
+.faded {
+	opacity: 0.333
+}
