@@ -31,9 +31,13 @@ const renderItems = (collection) => {
         listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
         // You can build logic from your data, too
-        //if (!item.alsoWriter) { // If this is `false`
-        //  listItem.classList.add('faded') // Add this class to the whole `li`
-        // }
+        if (item.section == 'A') { // If this is `false`
+            listItem.classList.add('section-a') // Add this class to the whole `li`
+        }
+
+        if (item.section == 'B') { // If this is `false`
+            listItem.classList.add('section-b') // Add this class to the whole `li`
+        }
 
         collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
     })

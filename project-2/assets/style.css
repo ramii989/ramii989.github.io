@@ -10,7 +10,7 @@ body {
 	font-family: 'Playfair Display', serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
-	background: linear-gradient(green, blue);
+	background-color: white;
 
 }
 
@@ -43,6 +43,11 @@ ul {
 li {
 	display: grid;
 	gap: var(--spacing);
+
+}
+
+li.section-b {
+	display: none;
 }
 
 .faded {
