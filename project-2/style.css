@@ -9,6 +9,9 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
+
 .main_banner {
     width: 100%;
     height: 100vh;
@@ -47,9 +50,9 @@ ul li a {
     height: 10px;
     border-radius: 50%;
     background-color: rgb(104, 180, 55);
-
-
 }
+
+
 
 .grade_b {
     width: 10px;
