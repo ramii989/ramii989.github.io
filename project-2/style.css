@@ -7,6 +7,7 @@ body {
     background-image: url(img/grey_map.jpg);
     background-size: 69vh;
     background-repeat: no-repeat;
+    background-color: rgb(199, 43, 31);
 }
 
 @media (min-width: 600px) {
@@ -39,7 +40,7 @@ body {
 @media (min-width: 1200px) {
     body {
         background-image: url(assets/maps/red_map.jpg);
-        background-size: 150vh;
+        background-size: 90vh;
         background-repeat: no-repeat;
 
     }
@@ -92,7 +93,7 @@ ul li a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: rgb(59, 77, 207);
+    background-color: rgb(59, 168, 207);
 }
 
 .grade_c {
