@@ -12,6 +12,7 @@ body {
 	padding-bottom: 33vh;
 	background-color: rgb(233, 230, 230);
 
+
 }
 
 aside {
@@ -49,6 +50,7 @@ li {
 li.section-a {
 	background: rgb(201, 214, 191);
 	font-size: 20px;
+	opacity: 100%;
 }
 
 li.section-b {
