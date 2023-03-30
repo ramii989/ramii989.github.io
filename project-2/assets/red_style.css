@@ -1,0 +1,64 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+    --spacing: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    padding: var(--spacing);
+    padding-bottom: 33vh;
+    background-color: rgb(233, 230, 230);
+
+}
+
+aside {
+    margin-bottom: calc(4 * var(--spacing));
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+em {
+    font-style: italic
+}
+
+ul {
+    display: grid;
+    gap: calc(4 * var(--spacing));
+    margin-top: calc(4 * var(--spacing));
+}
+
+li {
+    display: grid;
+    gap: var(--spacing);
+
+}
+
+li.section-a {
+    background: rgb(201, 214, 191);
+    font-size: 20px;
+    display: none;
+}
+
+li.section-b {
+    background: rgb(180, 180, 187);
+    font-size: 20px;
+    display: none;
+
+}
+
+li. .faded {
+    opacity: 0.333
+}
