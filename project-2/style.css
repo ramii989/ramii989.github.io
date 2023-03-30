@@ -9,7 +9,41 @@ body {
     background-repeat: no-repeat;
 }
 
+@media (min-width: 600px) {
+    body {
+        background-image: url(assets/maps/green_map.jpg);
+        background-size: 90vh;
+        background-repeat: no-repeat;
 
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        background-image: url(assets/maps/blue_map.jpg);
+        background-size: 90vh;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background-image: url(assets/maps/yellow_map.jpg);
+        background-size: 90vh;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(assets/maps/red_map.jpg);
+        background-size: 150vh;
+        background-repeat: no-repeat;
+
+    }
+}
 
 
 .main_banner {
