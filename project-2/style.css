@@ -13,7 +13,7 @@ body {
 @media (min-width: 600px) {
     body {
         background-image: url(assets/maps/green_map.jpg);
-        background-size: 63vh;
+        background-size: 60vh;
         background-repeat: no-repeat;
 
     }
@@ -22,7 +22,7 @@ body {
 @media (min-width: 800px) {
     body {
         background-image: url(assets/maps/blue_map.jpg);
-        background-size: 90vh;
+        background-size: 60vh;
         background-repeat: no-repeat;
 
     }
