@@ -15,17 +15,16 @@ body {
     grid-template-rows: 70px min-content 1fr min-content;
     min-height: 100vh;
     grid-template-areas:
-        "header"
-        "flower"
-        "poem"
-        "story";
+        "header header"
+        "flower poem"
+        "story story";
 
 }
 
 @media (min-width: 600px) {
     body {
         grid-template-columns: 1fr 3fr;
-        grid-template-rows: 200px 220px 450px;
+        grid-template-rows: 200px 360px 650px;
         grid-template-areas:
             "header header"
             "flower poem"
@@ -46,6 +45,8 @@ h2 {
 }
 
 header {
+    position: sticky;
+    top: 0;
     background-color: rgb(52, 81, 15);
     grid-area: header;
 }
@@ -56,6 +57,7 @@ aside {
 }
 
 main {
+
     background-color: rgb(236, 196, 82);
     grid-area: flower;
 }
