@@ -30,8 +30,8 @@ body {
         grid-template-areas:
             "header header"
             "flower flower"
-            "poem poem"
-            "story story";
+            "poem story"
+            "poem story";
     }
 }
 
