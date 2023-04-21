@@ -1,9 +1,11 @@
 <html>
 
 <head>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaKCSynk3STwhz09ASARa4Lril9Zxhwvc&callback=initMap&libraries=
-    &v=weekly" defer>
-    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaKCSynk3STwhz09ASARa4Lril9Zxhwvc &callback=initMap&libraries=visualization&v=weekly"
+        defer>
+        </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +14,7 @@
 
 
     <title>
-        Hate Crime
+        Stop The Hate
     </title>
 
 </head>
@@ -20,12 +22,19 @@
 
 
 <body>
+    <h1>Manhattan Hate Crime Heatmap</h1>
+    <div id="floating-panel">
+        <button id="toggle-heatmap">Toggle Heatmap</button>
+        <button id="change-gradient">Change gradient</button>
+        <button id="change-radius">Change radius</button>
+        <button id="change-opacity">Change opacity</button>
+    </div>
     <div id="map"></div>
     <script src="assets/data.js"></script>
 
 </html>
 
 
-<h1>Hate Crime in NYC</h1>
+
 
 </body>
