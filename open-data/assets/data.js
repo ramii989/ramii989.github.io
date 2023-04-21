@@ -1,14 +1,12 @@
+let map;
 
-const dataUrl = "https://data.cityofnewyork.us/resource/bqiq-cu78.json"
+function initMap() {
+    //@ts-ignore
 
-const parseData(
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 6,
+    });
+}
 
-)
-
-fetch(dataUrl + '?$limit=1971&bias_motive_description=ANTI-TRANSGENDER')
-    .then(response => response.json())
-    .then(data => {
-        parseData(data)
-    }
-
-    )
+initMap();
