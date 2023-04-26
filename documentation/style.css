@@ -16,7 +16,7 @@
 body {
     display: grid;
     background-color: rgb(0, 0, 0);
-
+    margin: var(--spacing)
 }
 
 
@@ -39,8 +39,8 @@ header {
 
 main {
     display: grid;
-    background-color: rgb(145, 0, 0);
-    min-height: calc(var(--spacing)*40);
+    background-color: rgb(0, 0, 0);
+    ;
 
 }
 
@@ -48,5 +48,27 @@ main {
     background-color: white;
     height: 20vw;
     width: 20vw;
+
+}
+
+.info {
+    margin: var(--spacing);
+}
+
+ul {
+    position: relative;
+}
+
+main h2 {
+    color: white;
+}
+
+main p {
+    color: white;
+    margin: var(--spacing);
+}
+
+img {
+    width: 85%;
     margin: var(--spacing);
 }
