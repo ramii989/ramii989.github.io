@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     font-size: 150%;
-    margin: var(--spacing);
+    margin: calc(var(--spacing));
 }
 
 header {
@@ -69,6 +69,15 @@ main p {
 }
 
 img {
-    width: 85%;
+    width: 30%;
     margin: var(--spacing);
+    position: s;
+}
+
+.snapshot {
+    background-color: white;
+}
+
+.roll {
+    background-color: white;
 }

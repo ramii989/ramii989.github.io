@@ -1,22 +1,13 @@
 const dataUrl = "https://data.cityofnewyork.us/resource/bqiq-cu78.json"
 
-
-
-fetch(dataUrl + '?$limit=1971&county=NEW YORK')
+fetch(dataUrl + '?$limit=30&county=NEW YORK')
     .then(response => response.json())
-    .then(data => {
-        console.log(data)
-    }
+    .then(collection => {
 
-    )
+        renderItems(collection)
+    })
 
-fetch(dataUrl + '?$limit=1971&complaint_year_number=2020')
-    .then(response => response.json())
-    .then(data => {
-        console.log(data)
-    }
 
-    )
 // Function to render your items
 const renderItems = (collection) => {
     // The `ul` where the items will be inserted
@@ -35,7 +26,7 @@ const renderItems = (collection) => {
 
 
 
-        // This can get annoying, so we can use “template literals” instead
+
         const itemDetails =
             `
 				<p>Report created on ${item.record_create_date}</p>
@@ -43,21 +34,15 @@ const renderItems = (collection) => {
                 <p>Offense: ${item.offense_description}</p>
 				
 			`
-        listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
-
-        // You can build logic from your data, too
+        listItem.insertAdjacentHTML('beforeend', itemDetails)
 
 
-        collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
+
+
+        collectionList.appendChild(listItem)
     })
 }
 
 
 
-// Fetch gets your JSON file…
-fetch(dataUrl + '?$limit=20&county=NEW YORK')
-    .then(response => response.json())
-    .then(collection => {
-        // And passes the data to the function, above!
-        renderItems(collection.reverse()) // In reverse order
-    })
+
