@@ -34,7 +34,7 @@ class Particle {
     draw() {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-        ctx.fillStyle = '#8C5523';
+        ctx.fillStyle = '#FF10F0';
         ctx.fill();
     }
     // check particle position, check mouse position, move the particle, draw the particle
@@ -72,7 +72,7 @@ class Particle {
     }
 }
 
-//create particle arrayyyhay i think api data can be added here?
+//create particle array i think api data can be added here?
 //Math.random declares size
 function init() {
     particlesArray = [];
@@ -107,7 +107,7 @@ function connect() {
                 + ((particlesArray[a].y - particlesArray[b].y) *
                     (particlesArray[a].y - particlesArray[b].y));
             if (distance < (canvas.width / 7) * (canvas.height / 7)) {
-                ctx.strokeStyle = 'rgba(140,85,31,1)';
+                ctx.strokeStyle = 'rgba(255, 16, 240)';
                 ctx.lineWidth = 1;
                 ctx.beginPath();
                 ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
