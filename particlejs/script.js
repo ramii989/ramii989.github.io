@@ -9,7 +9,7 @@ let particlesArray;
 let mouse = {
     x: null,
     y: null,
-    radius: (canvas.height / 70) * (canvas.height / 70)
+    radius: (canvas.height / 85) * (canvas.height / 85)
 }
 
 //event listener for mouse move fire every time mouse moves listener has acces to event object
@@ -107,7 +107,7 @@ function connect() {
                 + ((particlesArray[a].y - particlesArray[b].y) *
                     (particlesArray[a].y - particlesArray[b].y));
             if (distance < (canvas.width / 7) * (canvas.height / 7)) {
-                ctx.strokeStyle = 'rgba(255, 16, 240)';
+                ctx.strokeStyle = 'rgba(255,250,250)';
                 ctx.lineWidth = 1;
                 ctx.beginPath();
                 ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
