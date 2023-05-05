@@ -9,7 +9,7 @@ let particlesArray;
 let mouse = {
     x: null,
     y: null,
-    radius: (canvas.height / 80) * (canvas.height / 80)
+    radius: (canvas.height / 70) * (canvas.height / 70)
 }
 
 //event listener for mouse move fire every time mouse moves listener has acces to event object
