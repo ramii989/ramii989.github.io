@@ -6,8 +6,8 @@ fetch(dataUrl + '?$limit=30&county=NEW YORK')
 
         renderItems(collection)
     })
-let filterValue = 'all'; // set initial value of filter
-const filter = document.querySelector('#bias-filter');
+
+
 
 // Function to render your items
 const renderItems = (collection) => {
@@ -43,7 +43,5 @@ const renderItems = (collection) => {
         collectionList.appendChild(listItem)
     })
 }
-
-
 
 
