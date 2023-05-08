@@ -1,5 +1,7 @@
 console.log('______COSAS NUEVAS_____________')
 const dataUrl = 'https://data.cityofnewyork.us/resource/bqiq-cu78.json'
+const graphBar = document.querySelector('#graph')
+
 
 const parseData = (crimes) => {
 	let typeFelony = 0
@@ -21,6 +23,11 @@ const parseData = (crimes) => {
 	console.log('Violation:' + typeViolation)
 	console.log('Misdemeanor:' + typeMisdemeanor)
 	console.log('Other:' + typeOther)
+
+	graph.style.setProperty('--type--felony', typeFelony)
+	graph.style.setProperty('--type--violation', typeViolation)
+	graph.style.setProperty('--type--misdemeanor', typeMisdemeanor)
+	graph.style.setProperty('--type--other', typeOther)
 
 
 	//console.log(data)
