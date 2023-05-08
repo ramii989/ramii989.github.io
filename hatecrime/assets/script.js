@@ -8,11 +8,11 @@ const parseData = (crimes) => {
 	let typeOther = 0
 
 	crimes.forEach(crime => {
-		if (crime.law_code_category_description == 'FELONY') typeFelony = typeFelony + 1
+		if (crime.law_code_category_description == 'FELONY') typeFelony++
 
-		else if (crime.law_code_category_description == 'VIOLATION') typeViolation = typeViolation + 1
-		else if (crime.law_code_category_description == 'MISDEMEANOR') typeMisdemeanor = typeMisdemeanor + 1
-		else typeOther = typeOther + 1
+		else if (crime.law_code_category_description == 'VIOLATION') typeViolation++
+		else if (crime.law_code_category_description == 'MISDEMEANOR') typeMisdemeanor++
+		else typeOther++
 
 		//console.log(crime.law_code_category_description)
 	})
