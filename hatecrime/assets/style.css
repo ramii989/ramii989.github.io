@@ -1,12 +1,15 @@
 body {
-    --spacing: 20px;
-    font-family: monospace;
+    --spacing: 24px;
+
+    font-family: 'Courier New', Courier, monospace;
     padding: var(--spacing);
+    display: grid;
+    gap: calc(var(--spacing) * 2);
 }
 
 @media (min-width: 600px) {
     body {
-        --spacing: 30px
+        --spacing: 32px;
     }
 }
 
@@ -15,6 +18,7 @@ h1 {
 }
 
 #graph {
+    --total: calc(var(--type--felony)+var(--type--violation)+var(--type--misdemeanor)+var(--type--other));
     display: flex;
     margin-top: calc(2 * var(--spacing));
     background-color: #ccc;
@@ -26,6 +30,10 @@ h1 {
     color: white;
     display: flex;
     align-items: center;
+}
+
+li {
+    width: 0%;
 }
 
 .felony {
@@ -45,5 +53,17 @@ h1 {
 }
 
 li.felony {
-    width: 30%;
+    width: calc(var(--type--felony) / var(--total) * 100%);
+}
+
+li.violation {
+    width: calc(var(--type--violation) / var(--total) * 100%);
+}
+
+li.misdemeanor {
+    width: calc(var(--type--misdemeanor) / var(--total) * 100%);
+}
+
+li.other {
+    width: calc(var(--type--other) / var(--total) * 100%);
 }
