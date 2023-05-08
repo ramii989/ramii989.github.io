@@ -1,3 +1,49 @@
 body {
+    --spacing: 20px;
+    font-family: monospace;
+    padding: var(--spacing);
+}
+
+@media (min-width: 600px) {
+    body {
+        --spacing: 30px
+    }
+}
+
+h1 {
+    font-size: 300%;
+}
+
+#graph {
+    display: flex;
+    margin-top: calc(2 * var(--spacing));
+    background-color: #ccc;
+    height: calc(2 * var(--spacing));
+}
+
+#graph li {
+    padding: calc(var(--spacing)/2);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.felony {
     background-color: pink;
+}
+
+.violation {
+    background-color: rgb(142, 67, 80);
+}
+
+.misdemeanor {
+    background-color: rgb(104, 23, 37);
+}
+
+.other {
+    background-color: rgb(228, 228, 228);
+}
+
+li.felony {
+    width: 30%;
 }
