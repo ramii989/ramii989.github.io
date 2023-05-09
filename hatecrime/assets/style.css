@@ -18,7 +18,7 @@ h1 {
 }
 
 #graph {
-    --total: calc(var(--type--felony)+var(--type--violation)+var(--type--misdemeanor)+var(--type--other));
+    --total: calc(var(--type--felony) + var(--type--violation) + var(--type--misdemeanor) +var(--type--other));
     display: flex;
     margin-top: calc(2 * var(--spacing));
     background-color: #ccc;
