@@ -1,0 +1,50 @@
+#graph {
+    --total: calc(var(--type--felony) + var(--type--violation) + var(--type--misdemeanor) +var(--type--other));
+    display: flex;
+    margin-top: calc(2 * var(--spacing));
+    background-color: #ccc;
+    height: calc(2 * var(--spacing));
+}
+
+#graph li {
+    padding: calc(var(--spacing)/2);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    width: 0%;
+}
+
+.felony {
+    background-color: rgb(0, 0, 0);
+}
+
+.violation {
+    background-color: rgb(132, 132, 132);
+}
+
+.misdemeanor {
+    background-color: rgb(228, 228, 228);
+}
+
+.other {
+    background-color: rgb(153, 152, 152);
+}
+
+li.felony {
+    width: 35%;
+}
+
+li.violation {
+    width: 2%;
+}
+
+li.misdemeanor {
+    width: 63%;
+}
+
+li.other {
+    width: 0%;
+}

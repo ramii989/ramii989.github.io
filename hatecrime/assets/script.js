@@ -33,7 +33,7 @@ const parseData = (crimes) => {
 	//console.log(data)
 }
 
-fetch(dataUrl + '?$limit=3000&complaint_year_number=2022&bias_motive_description=ANTI-ASIAN')
+fetch(dataUrl + '?$limit=3000&complaint_year_number=2022&bias_motive_description=ANTI-MUSLIM')
 	.then(response => response.json())
 	.then(data => {
 		parseData(data)
